@@ -1,0 +1,21 @@
+{
+  "name": "space-merc",
+  "description": "",
+  "author": "Stephen Whitmore <sww@eight.net>",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/space-merc.git"
+  },
+  "homepage": "https://github.com/noffle/space-merc",
+  "bugs": "https://github.com/noffle/space-merc/issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "ecstatic",
+  },
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "license": "ISC"
+}
