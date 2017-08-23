@@ -13,7 +13,9 @@ CLOSED: [2017-08-23 Wed 14:26]
 *** DONE arcade physics body + velocity + friction
 CLOSED: [2017-08-23 Wed 14:30]
 - State "DONE"       from "TODO"       [2017-08-23 Wed 14:30]
-*** TODO fill screen /w canvas
+*** DONE fill screen /w canvas
+CLOSED: [2017-08-23 Wed 14:36]
+- State "DONE"       from "TODO"       [2017-08-23 Wed 14:36]
 *** overhead char that can run around tilemaps
 *** pre-made handful of static ship & station tilemaps
 *** can move between ships/stations on port edges
