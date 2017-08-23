@@ -1,4 +1,4 @@
-var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.WEBGL, 'phaser-example', { preload: preload, create: create, update: update, render: render });
 
 var ufo;
 var leftBtn;
