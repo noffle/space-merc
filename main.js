@@ -33,6 +33,16 @@ function update() {
         ufo.x += speed;
         ufo.angle = 15;
     }
+    if (game.input.keyboard.isDown(Phaser.Keyboard.UP))
+    {
+        ufo.y -= speed;
+        ufo.angle = -15;
+    }
+    else if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN))
+    {
+        ufo.y += speed;
+        ufo.angle = 15;
+    }
     else
     {
         ufo.rotation = 0;

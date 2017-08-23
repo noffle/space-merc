@@ -1,6 +1,10 @@
 * Space Merc
 - minimal # of mechanics
 ** player navigation
+*** DONE phaser + project init
+CLOSED: [2017-08-22 Tue 19:05]
+- State "DONE"       from "TODO"       [2017-08-22 Tue 19:05]
+*** TODO movable sprite
 - overhead char that can run around tilemaps
 - pre-made handful of static ship & station tilemaps
 - can move between ships/stations on port edges
