@@ -6,10 +6,20 @@ var rightBtn;
 
 function preload() {
   game.load.spritesheet('mensch', 'assets/graphics/_mensch_handgun.png', 64, 64, 4)
+
+  game.load.tilemap('map', 'assets/maps/station1.json', null, Phaser.Tilemap.TILED_JSON);
+  game.load.image('tiles', 'assets/graphics/_tileset.png');
+
 }
 
 function create() {
   game.physics.startSystem(Phaser.Physics.ARCADE)
+
+  var map = game.add.tilemap('map', 32, 32);
+  map.addTilesetImage('tiles');
+  layer = map.createLayer(0);
+  layer = map.createLayer(1);
+  layer.resizeWorld();
 
   ufo = game.add.sprite(320, 240, 'mensch');
   ufo.anchor.setTo(0.5, 0.5);
