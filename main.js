@@ -9,28 +9,32 @@ function preload() {
 }
 
 function create() {
-    // Create a ufo sprite as player.
-    ufo = game.add.sprite(320, 240, 'mensch');
-    ufo.anchor.setTo(0.5, 0.5);
+  game.physics.startSystem(Phaser.Physics.ARCADE)
 
-    // Make the default camera follow the ufo.
-    game.camera.follow(ufo);
+  ufo = game.add.sprite(320, 240, 'mensch');
+  ufo.anchor.setTo(0.5, 0.5);
+  game.physics.enable(ufo, Phaser.Physics.ARCADE)
+
+  game.camera.follow(ufo);
 }
 
 function update() {
-  var speed = 4
+  var speed = 8
 
   if (game.input.keyboard.isDown(Phaser.Keyboard.A)) {
-    ufo.x -= speed
+    ufo.body.velocity.x -= speed
   } else if (game.input.keyboard.isDown(Phaser.Keyboard.D)) {
-    ufo.x += speed
+    ufo.body.velocity.x += speed
   }
 
   if (game.input.keyboard.isDown(Phaser.Keyboard.W)) {
-    ufo.y -= speed
+    ufo.body.velocity.y -= speed
   } else if (game.input.keyboard.isDown(Phaser.Keyboard.S)) {
-    ufo.y += speed
+    ufo.body.velocity.y += speed
   }
+
+  ufo.body.velocity.x *= 0.94
+  ufo.body.velocity.y *= 0.94
 
   var mx = game.input.mousePointer.x - game.camera.x
   var my = game.input.mousePointer.y - game.camera.y
