@@ -4,10 +4,16 @@
 *** DONE phaser + project init
 CLOSED: [2017-08-22 Tue 19:05]
 - State "DONE"       from "TODO"       [2017-08-22 Tue 19:05]
-*** TODO movable sprite
-- overhead char that can run around tilemaps
-- pre-made handful of static ship & station tilemaps
-- can move between ships/stations on port edges
+*** DONE movable sprite (4 dir)
+CLOSED: [2017-08-22 Tue 19:05]
+- State "DONE"       from "TODO"       [2017-08-22 Tue 19:05]
+*** DONE mouse + WASD movement
+CLOSED: [2017-08-23 Wed 14:26]
+- State "DONE"       from "TODO"       [2017-08-23 Wed 14:26]
+*** TODO arcade physics body
+*** overhead char that can run around tilemaps
+*** pre-made handful of static ship & station tilemaps
+*** can move between ships/stations on port edges
 ** space navigation
 - button that brings up space map (black /w dots for stations + your location)
 - ship bridges have panel that brings up map, but you can click on a destination

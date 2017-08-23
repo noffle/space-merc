@@ -3,7 +3,6 @@ var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', { preload: 
 var ufo;
 var leftBtn;
 var rightBtn;
-var speed = 4;
 
 function preload() {
   game.load.spritesheet('mensch', 'assets/graphics/_mensch_handgun.png', 64, 64, 4)
@@ -19,35 +18,24 @@ function create() {
 }
 
 function update() {
+  var speed = 4
 
-    // Check key states every frame.
-    // Move ONLY one of the left and right key is hold.
+  if (game.input.keyboard.isDown(Phaser.Keyboard.A)) {
+    ufo.x -= speed
+  } else if (game.input.keyboard.isDown(Phaser.Keyboard.D)) {
+    ufo.x += speed
+  }
 
-    if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT))
-    {
-        ufo.x -= speed;
-        ufo.angle = -15;
-    }
-    else if (game.input.keyboard.isDown(Phaser.Keyboard.RIGHT))
-    {
-        ufo.x += speed;
-        ufo.angle = 15;
-    }
-    if (game.input.keyboard.isDown(Phaser.Keyboard.UP))
-    {
-        ufo.y -= speed;
-        ufo.angle = -15;
-    }
-    else if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN))
-    {
-        ufo.y += speed;
-        ufo.angle = 15;
-    }
-    else
-    {
-        ufo.rotation = 0;
-    }
+  if (game.input.keyboard.isDown(Phaser.Keyboard.W)) {
+    ufo.y -= speed
+  } else if (game.input.keyboard.isDown(Phaser.Keyboard.S)) {
+    ufo.y += speed
+  }
 
+  var mx = game.input.mousePointer.x - game.camera.x
+  var my = game.input.mousePointer.y - game.camera.y
+  var rot = Math.atan2(my - ufo.y, mx - ufo.x)
+  ufo.rotation = rot
 }
 
 function render() {
