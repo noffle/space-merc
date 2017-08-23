@@ -1,0 +1,37 @@
+* Space Merc
+- minimal # of mechanics
+** player navigation
+- overhead char that can run around tilemaps
+- pre-made handful of static ship & station tilemaps
+- can move between ships/stations on port edges
+** space navigation
+- button that brings up space map (black /w dots for stations + your location)
+- ship bridges have panel that brings up map, but you can click on a destination
+  - undocks you from station, docks you to new station (instantly)
+** combat
+- player has pistol /w unlimited ammo
+- no factions
+- 3 enemy types
+  - unarmed crewperson (can alert others)
+  - crewperson (pistol)
+  - security personnel (smg)
+- hotline miami-style enemy wandering (box pattern)
+** stealth
+- tilemap LoS: you can't be seen through walls
+** missions
+- panel in each station that gives you a mission
+- chooses a random station and places a target on it randomly
+- tells you the reward $$$
+- the target is glowing a special colour
+- you receive $$$ when target is killed
+- gui label that tells you how much $$$ you need to leave the system
+** hypergate station
+- every map has a hypergate station on it
+- locked door tile blocking entry past atrium
+- walk on panel (secure front desk area) to pay for ticket and unlock door
+- outside platform /w hyper-train that you can walk into
+- brand new system is generated
+  - ticket price goes up
+  - enemies are tougher (faster, more health)
+  - reward per mission goes up
+  - you are spawned in the atrium of the new hypergate station
