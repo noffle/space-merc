@@ -16,8 +16,12 @@ CLOSED: [2017-08-23 Wed 14:30]
 *** DONE fill screen /w canvas
 CLOSED: [2017-08-23 Wed 14:36]
 - State "DONE"       from "TODO"       [2017-08-23 Wed 14:36]
-*** overhead char that can run around tilemaps
-*** pre-made handful of static ship & station tilemaps
+*** DONE design a small static space station map (tiled)
+CLOSED: [2017-08-23 Wed 14:47]
+- State "DONE"       from "TODO"       [2017-08-23 Wed 14:47]
+*** TODO load + show tilemap in-game
+*** TODO player vs tiles collisions
+*** TODO EXPERIMENT: integrate 'recs'
 *** can move between ships/stations on port edges
 ** space navigation
 - button that brings up space map (black /w dots for stations + your location)
