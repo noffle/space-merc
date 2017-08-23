@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="../graphics/_tileset.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Floor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1tFqwlAURNHYWqj2//9XfOtcCVqlndtkDaxHIZwNJodlWQ4AAAAAAAAAAMAubG3te+qRa99Tj1z7nnrk2vfUI9e+px659j31yLXvqUeufU89cu176pFr31OPXPueeuTa99Qj176nHrn2PfXIte+pR659Tz1y7XvqkWvfU49c+5565Nr31CPXvqceufY9t9LjfcVP177nlnocB3r0psfv9Fj733nEx+CR34xr33PGHm9/RI/700OP72vfU49c+57/occr73jv89d2vdHX4Jnv1mfXvqceufY99ci176lHrn1PPXLte+qRa99Tj1z7nnrk2vfUI9e+52zOy22P8wTPtVd6zEWPuegxl7X3efu59kqPuVxvfxro0e3xOdADAAAAAAAAAAAAAGD7LpTpJAk=
+  </data>
+ </layer>
+ <layer name="Vent" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0zkKACAMBEC/pF38/8NUsBQ7j2IGwjYplkBSAgAAAAAAAAAAAG7IM6NPeVmEpTozb7c4afyG+/8rXhcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAixqHkQGr
+  </data>
+ </layer>
+ <objectgroup name="HostileNPCs" width="0" height="0">
+  <object x="1693" y="1533">
+   <properties>
+    <property name="ai" value="sentry"/>
+    <property name="angle" value="-90"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PlayerSpawn" width="0" height="0">
+  <object x="1254" y="2208">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Mops" width="0" height="0"/>
+ <objectgroup name="Ports" width="0" height="0">
+  <object x="1247" y="2257">
+   <properties>
+    <property name="angle" value="-90"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="InfoText" width="100" height="100">
+  <object x="1179" y="1557" width="389" height="144">
+   <properties>
+    <property name="text" value="Enemies facing away from you won't \n notice you passing by."/>
+   </properties>
+  </object>
+  <object x="1610" y="1399" width="172" height="148">
+   <properties>
+    <property name="text" value="SPACEBAR again to take their gun"/>
+   </properties>
+  </object>
+  <object x="1603" y="1557" width="346" height="143">
+   <properties>
+    <property name="text" value="Sneak up to them and hit\nSPACEBAR to knock them out"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

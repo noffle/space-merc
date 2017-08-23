@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="../graphics/_tileset.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Floor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt27EKgzAARdGIFNT+//+2GQoSHNSheW3OcCZBYu4QjTqVUiYAAAAAAAAAAAAAyvy2NOaAcY2qzv3a0KNvj2dDj362gx5bwLhGpUcWPbLokcV6nkWP/vPfOnr+aPUe97+qc/u4SA89RqHHd+f6Y2vsj93pcea8va8/Td2bretxe7+0t97oceacS8D1p9Ejix5Z9MhiPf897nez6JFFjyz2E7PZb8+iRxbva7PokUWPLHpksZ5n8T11Fv8bAAAAAAAAAAAAAAAAAAAAAIzpBTrsMNk=
+  </data>
+ </layer>
+ <layer name="Vent" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="HostileNPCs">
+  <object x="1850" y="1299">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PlayerSpawn">
+  <object x="1564" y="955">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Mops"/>
+ <objectgroup name="Ports">
+  <object x="1569" y="1842">
+   <properties>
+    <property name="angle" value="-90"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object x="2065" y="1341">
+   <properties>
+    <property name="angle" value="0"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object x="1071" y="1343">
+   <properties>
+    <property name="angle" value="180"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object x="1567" y="847">
+   <properties>
+    <property name="angle" value="90"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="InfoText">
+  <object x="1416" y="627" width="306" height="519">
+   <properties>
+    <property name="text" value="Sneak aboard enemy ships and reach the bridge!"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

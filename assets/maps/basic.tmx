@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="../graphics/_tileset.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Floor" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlkEOwyAMBFFy4P8/7t0y1AGTLnQOo0SKAI+zIO5Syg0AAAAAUlTDr+uZ8Wg5tVhVy5XAiDcefY/e92/+ah6RTFczTtXDW9vzUvbwatotVyv2ecbc0V6d4mGzFc1CJCN4zHlE7xbRO8Zl5vbqq42nfZ/9H1lnyBMPz0nFI9p7z0fRo1XnLrl6c58/HYfHWo9TcnW6R8Yab4AHHniM15l9ruCR6zySTTV6vd/JBQ8t/sFjJ/DQ4hQPNT568Byp
+  </data>
+ </layer>
+ <layer name="Vent" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKACAMBMFU+f+TreySSoMIMy84jo0AAIAZ+XoA39IOp6qGbnalUbauBY3M8zEAAAAAUFme3AAx
+  </data>
+ </layer>
+ <objectgroup name="HostileNPCs">
+  <object x="546" y="1076">
+   <ellipse/>
+  </object>
+  <object x="586.095" y="1184.88" rotation="167.661">
+   <ellipse/>
+  </object>
+  <object x="221" y="962">
+   <ellipse/>
+  </object>
+  <object x="485" y="482">
+   <ellipse/>
+  </object>
+  <object x="478" y="671">
+   <ellipse/>
+  </object>
+  <object x="307" y="478">
+   <ellipse/>
+  </object>
+  <object x="131" y="475">
+   <ellipse/>
+  </object>
+  <object x="267" y="667">
+   <ellipse/>
+  </object>
+  <object x="557" y="584">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PlayerSpawn">
+  <object x="495" y="1527">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

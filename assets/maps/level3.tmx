@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="../graphics/_tileset.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Floor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2u1qwjAYgFGdCpuD3f/lbgUFCWn7ph8ma86PA2JhHXnaJC2eT6fTGQAAAAAAAAAAgMO5BNT+H3syjPdP4vbn+qCHHj3L9bjosXgsB/eHyFoQ9dpDk3iPjxG3iWOl9FjX46KHHkz2mHN7GDuux3Y90rG8Fsr1iLhn1B6jI/RI57rIeXL00OOIPdK/u3RvoIcetXtE90ultpivetyXLR2rknGOdtNjXY/oPPT6vjd9r6WHHi1rZb6a+66XNkufpSPXd+46v4/0HD5/Zr57fu5lr5XrMbeXHdvXru2Ruz9675Gb66d6ROV6zK0/r8f1mO+Rfh85nx5lPUrmqyU9ptbrufW+9li9w+v1Gukxdv8s6VG6l6s9Vnro8Y75qrRJT88faY+91/PSJj21eI7Nu3tEm/TWItdj7/kqPXd6fz73tj22GOsRkXs3uOT8Yz1qj8t/67HVuz49Yj2m5qstz5/7jY8e9Xow3WNuTd96vmJdj2E//J3QY98eU88gerTV46LH7j1K6dGOe6ZHz/vT2vRoix5t0aMt1vO26NGWYey/EnrU7fGZ0AMAAAAAAAAAAAAA4Ph+ATLSMpo=
+  </data>
+ </layer>
+ <layer name="Vent" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0zkKACAMBEC/pF38/8NUsBQ7j2IGwjYplkBSAgAAAAAAAAAAAG7IM6NPeVmEpTozb7c4afyG+/8rXhcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAixqHkQGr
+  </data>
+ </layer>
+ <objectgroup name="HostileNPCs">
+  <object x="1035" y="1495">
+   <ellipse/>
+  </object>
+  <object x="1075" y="1611">
+   <ellipse/>
+  </object>
+  <object x="1261" y="1631">
+   <ellipse/>
+  </object>
+  <object x="987" y="1138">
+   <ellipse/>
+  </object>
+  <object x="1179" y="1111">
+   <ellipse/>
+  </object>
+  <object x="1355" y="1097">
+   <ellipse/>
+  </object>
+  <object x="1997" y="1292">
+   <ellipse/>
+  </object>
+  <object x="1832" y="1302">
+   <ellipse/>
+  </object>
+  <object x="1919" y="1765">
+   <ellipse/>
+  </object>
+  <object x="1865" y="1764">
+   <ellipse/>
+  </object>
+  <object x="1435" y="1392">
+   <ellipse/>
+  </object>
+  <object x="838" y="1899">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PlayerSpawn">
+  <object x="1254" y="2208">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Mops">
+  <object x="1361" y="849">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Ports">
+  <object x="1247" y="2257">
+   <properties>
+    <property name="angle" value="-90"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
